@@ -1,0 +1,26 @@
+{
+  "name": "charon-auth",
+  "version": "1.0.3",
+  "description": "Authentication middleware for Node.js",
+  "main": "index.js",
+  "author": "Alexander Elbracht <alexander@elbracht.org>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skaren/charon.git"
+  },
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "mongoose": "^4.0.8",
+    "mongoose-unique-validator": "^1.0.0",
+    "nodemailer": "^1.4.0",
+    "nodemailer-smtp-transport": "^1.0.3",
+    "nodemailer-stub-transport": "^1.0.0"
+  },
+  "devDependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "express-flash": "0.0.2",
+    "express-session": "^1.13.0"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "server": {
+    "url": "http://localhost:3000"
+  },
+  "database": {
+    "url": "mongodb://localhost/charon"
+  },
+  "mail": {
+    "sender": "noreply@charon.com",
+    "smtp": {
+      "host": "localhost",
+      "port": 25,
+      "auth": {
+        "user": "username",
+        "pass": "password"
+      }
+    }
+  }
+}
